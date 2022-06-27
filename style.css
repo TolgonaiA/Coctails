@@ -1,0 +1,12 @@
+.card {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card .cocktail-img:hover {
+  transform: scale(1.1);
+}
+
+.my-modal {
+  background-color: rgba(0,0,0,0.2);
+}

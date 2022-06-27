@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Enter cocktail" aria-describedby="button-addon2" id="input">
+      <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+    </div>
+    <div class="cocktails row row-cols-1 row-cols-md-2 g-6"></div>
+  </div>
+  <div class="modal my-modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cocktail info</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">Ingredients:
+      </div>
+    </div>
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
